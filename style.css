@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#chat {
+  width: 550px;
+  margin: 430px auto;
+  padding: 20px;
+}
+
+.info_output {
+  text-align: center;
+  color: rgb(17, 33, 34);
+  font-style: initial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chat_output {
+  margin: 20px 0;
+  border: 2px solid rgb(64, 64, 65);
+  background-color: rgb(157, 230, 252);
+  border-radius: 10px;
+  padding: 10px;
+  height: 250px;
+  overflow-y: scroll;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.chat_output > div {
+  max-width: 80%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.chat_output .recieved {
+  background: #2c2c81;
+  align-self: flex-start;
+  font-size: 20px;
+}
+.chat_output .sent {
+  background: #0f7e0f;
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.chat_input ::placeholder {
+  padding-left: 5px;
+}
+.chat_input input {
+  padding-left: 10px;
+  margin-left: 10px;
+  width: 170px;
+  height: 44px;
+  border: 2px solid rgb(64, 64, 65);
+  border-radius: 3px;
+  font-size: 15px;
+}
+.btn_send {
+  font-size: 15px;
+  height: 50px;
+  width: 170px;
+  padding: 7px 10px;
+  color: #fff;
+  background: rgb(255, 135, 37);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+a {
+  color: #e4e728;
+  text-decoration: none;
+}
+
+.btn_geo {
+  font-size: 15px;
+  height: 50px;
+  width: 170px;
+  padding: 5px 10px;
+  color: #fff;
+  background: rgb(255, 135, 37);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
